@@ -22,7 +22,7 @@ Install dependencies using [conda](https://conda.io/docs/)
 Image training set contain 12500 images for each category. I split those into 80% train and 20% means test Split each class images into 10,000 for train and 2,500 for test. 
 
 ### Architecture
-![image](resources/architecture.jpg)
+![image](resources/images/architecture.jpg)
 
 
 ```python
@@ -156,7 +156,7 @@ plt.show()
 ```
 
 
-![png](output_10_0.png)
+![png](resources/images/output_10_0.png)
 
 
 
@@ -306,7 +306,7 @@ plt.ylabel('true value');
 ```
 
 
-![png](output_14_0.png)
+![png](resouces/images/output_14_0.png)
 
 
 
@@ -329,7 +329,7 @@ plt.show()
 ```
 
 
-![png](output_15_0.png)
+![png](resouces/images/output_15_0.png)
 
 
 
@@ -351,7 +351,7 @@ plt.show()
 ```
 
 
-![png](output_16_0.png)
+![png](resouces/images/output_16_0.png)
 
 
 
@@ -399,7 +399,7 @@ img = np.expand_dims(img, axis=0)
 ```
 
 
-![png](output_19_0.png)
+![png](resouces/images/output_19_0.png)
 
 
 
@@ -445,7 +445,7 @@ plt.imshow(conv2d_6_features[0, :, :, 4], cmap='gray')
 
 
 
-![png](output_24_1.png)
+![png](resouces/images/output_24_1.png)
 
 
 ### First Covolution Layer Output
@@ -467,7 +467,7 @@ plt.show()
 ```
 
 
-![png](output_26_0.png)
+![png](resouces/images/output_26_0.png)
 
 
 ### Second Covolution Layer Output
@@ -487,7 +487,7 @@ plt.show()
 ```
 
 
-![png](output_28_0.png)
+![png](resouces/images/output_28_0.png)
 
 
 ### Model Performance on Unseen Data
@@ -518,7 +518,7 @@ for i in range(columns*rows):
 ```
 
 
-![png](output_30_0.png)
+![png](resouces/images/output_30_0.png)
 
 
 
