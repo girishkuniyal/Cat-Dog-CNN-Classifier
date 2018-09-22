@@ -182,20 +182,6 @@ df.head(10)
 
 
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -279,7 +265,6 @@ df.head(10)
     </tr>
   </tbody>
 </table>
-</div>
 
 
 
@@ -306,7 +291,7 @@ plt.ylabel('true value');
 ```
 
 
-![png](resouces/images/output_14_0.png)
+![png](resources/images/output_14_0.png)
 
 
 
@@ -329,7 +314,7 @@ plt.show()
 ```
 
 
-![png](resouces/images/output_15_0.png)
+![png](resources/images/output_15_0.png)
 
 
 
@@ -351,7 +336,7 @@ plt.show()
 ```
 
 
-![png](resouces/images/output_16_0.png)
+![png](resources/images/output_16_0.png)
 
 
 
@@ -399,7 +384,7 @@ img = np.expand_dims(img, axis=0)
 ```
 
 
-![png](resouces/images/output_19_0.png)
+![png](resources/images/output_19_0.png)
 
 
 
@@ -445,7 +430,7 @@ plt.imshow(conv2d_6_features[0, :, :, 4], cmap='gray')
 
 
 
-![png](resouces/images/output_24_1.png)
+![png](resources/images/output_24_1.png)
 
 
 ### First Covolution Layer Output
@@ -467,7 +452,7 @@ plt.show()
 ```
 
 
-![png](resouces/images/output_26_0.png)
+![png](resources/images/output_26_0.png)
 
 
 ### Second Covolution Layer Output
@@ -487,7 +472,7 @@ plt.show()
 ```
 
 
-![png](resouces/images/output_28_0.png)
+![png](resources/images/output_28_0.png)
 
 
 ### Model Performance on Unseen Data
@@ -518,7 +503,7 @@ for i in range(columns*rows):
 ```
 
 
-![png](resouces/images/output_30_0.png)
+![png](resources/images/output_30_0.png)
 
 
 
